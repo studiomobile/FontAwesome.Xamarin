@@ -24,16 +24,20 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 using System;
-using MonoTouch.UIKit;
+using UIKit;
+using CoreGraphics;
+using CoreText;
+using Foundation;
 
-namespace FontAwesomeXamarin
+namespace FontAwesome.iOS
 {
-	public class FontAwesome
+	public class FAIcons
 	{
-		public static UIFont Font (float size) {
+		public static UIFont Font (nfloat size)
+		{
 			return UIFont.FromName ("FontAwesome", size);
 		}
-			
+							
 		public static string FAGlass = "\uf000";
 		public static string FAMusic = "\uf001";
 		public static string FASearch = "\uf002";
@@ -402,6 +406,6 @@ namespace FontAwesomeXamarin
 		public static string FAWheelchair = "\uf193";
 		public static string FAVimeoSquare = "\uf194";
 		public static string FATry = "\uf195";
-		public static string FAPlusSquareO = "\uf196"; 
+		public static string FAPlusSquareO = "\uf196";
 	}
 }

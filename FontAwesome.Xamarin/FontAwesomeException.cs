@@ -25,7 +25,7 @@
 // THE SOFTWARE.
 using System;
 
-namespace FontAwesomeXamarin
+namespace FontAwesome.iOS
 {
 	[Serializable]
 	public class FontAwesomeException : Exception

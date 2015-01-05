@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontAwesome.Xamarin", "FontAwesome.Xamarin\FontAwesome.Xamarin.csproj", "{046FE27A-FF74-4155-B749-1A5B0E84B3CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontAwesome.Xamarin", "FontAwesome.Xamarin\FontAwesome.Xamarin.csproj", "{33E266D3-1D3F-4D24-B4F5-35AA8CBE342E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{046FE27A-FF74-4155-B749-1A5B0E84B3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{046FE27A-FF74-4155-B749-1A5B0E84B3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{046FE27A-FF74-4155-B749-1A5B0E84B3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{046FE27A-FF74-4155-B749-1A5B0E84B3CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E266D3-1D3F-4D24-B4F5-35AA8CBE342E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E266D3-1D3F-4D24-B4F5-35AA8CBE342E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E266D3-1D3F-4D24-B4F5-35AA8CBE342E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E266D3-1D3F-4D24-B4F5-35AA8CBE342E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = FontAwesome.Xamarin\FontAwesome.Xamarin.csproj

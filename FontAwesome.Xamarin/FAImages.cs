@@ -10,6 +10,12 @@ namespace FontAwesome.iOS
 			Size = 24,
 			Insets = new UIEdgeInsets (1, 1, 1, 1)
 		};
+
+		public static IFAImageGenerator Generator(float size) {
+			return new FAImageGenerator () { 
+				Size = size
+			};
+		}
 	}
 
 }

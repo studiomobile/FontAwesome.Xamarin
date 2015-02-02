@@ -31,7 +31,7 @@ namespace FontAwesome.iOS
 
 		public static void AppendText(this UILabel label, string text)
 		{
-			using (var labelText = new NSMutableAttributedString(label.AttributedText))
+			using (var labelText = new NSMutableAttributedString(label.AttributedText != null ? label.AttributedText : new NSAttributedString()))
 			using (var textToAppend = new NSAttributedString(text)) {
 				labelText.Append(textToAppend);
 				label.AttributedText = labelText;

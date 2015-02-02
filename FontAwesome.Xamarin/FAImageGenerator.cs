@@ -1,11 +1,10 @@
-using System;
-using UIKit;
 using CoreGraphics;
 using CoreText;
 using Foundation;
 using System.Runtime.InteropServices;
 using ObjCRuntime;
-using System.Text;
+using UIKit;
+using System;
 
 namespace FontAwesome.iOS
 {
